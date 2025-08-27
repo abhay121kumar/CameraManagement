@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RetrieveDialog</class>
+ <widget class="QDialog" name="RetrieveDialog">
+  <property name="geometry">
+   <rect><x>0</x><y>0</y><width>300</width><height>200</height></rect>
+  </property>
+  <property name="windowTitle">
+   <string>Retrieve Camera</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item><widget class="QLabel" name="lblId"><property name="text"><string>ID:</string></property></widget></item>
+   <item><widget class="QLabel" name="lblName"><property name="text"><string>Name:</string></property></widget></item>
+   <item><widget class="QLabel" name="lblIp"><property name="text"><string>IP Address:</string></property></widget></item>
+   <item><widget class="QLabel" name="lblStatus"><property name="text"><string>Status:</string></property></widget></item>
+   <item>
+    <widget class="QPushButton" name="btnClose">
+     <property name="text"><string>Close</string></property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
